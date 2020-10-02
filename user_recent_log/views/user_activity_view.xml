@@ -11,6 +11,7 @@
             <field name="res_id" invisible="1"/>
             <field name="last_visited_on"/>
             <field name="user_id"/>
+            <field name="Comment"/>
             <button name="redirect_on_record" string="Redirect on Record" type="object" class="oe_title"
                     icon="fa-arrow-right"/>
         </tree>
