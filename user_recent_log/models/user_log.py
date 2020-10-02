@@ -21,6 +21,7 @@ class UserRecentLog(models.Model):
     last_visited_on = fields.Datetime("Last Visited On")
     user_id = fields.Many2one("res.users", "User")
     activity = fields.Text("Activity")
+    comment = fields.Text("Comment")
 
     @api.model
     def get_record(self, model, res_id):
